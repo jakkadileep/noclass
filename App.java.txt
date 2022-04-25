@@ -51,6 +51,18 @@ public class GFG {
 			System.out.print("No");
 	}
 }
+
+i made some changes in featute village101
+private boolean defaultOptionalFlagValue = true;
+
+public void doSomething(boolean optionalFlag) {
+    ...
+}
+
+public void doSomething() {
+    doSomething(defaultOptionalFlagValue);
+}
+
 import javax.swing.*;  
 public class Simple2 extends JFrame{//inheriting JFrame  
 JFrame f;  
@@ -66,3 +78,4 @@ setVisible(true);
 public static void main(String[] args) {  
 new Simple2();  
 }}  
+
